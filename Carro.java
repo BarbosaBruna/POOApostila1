@@ -1,6 +1,6 @@
 public class Carro {
-    private String modelo = "Fusca";
-    private String cor = "Azul";
+    private String modelo;
+    private String cor;
 
     public void viraEsquerda() {
         System.out.printf("%s %s virando a esquerda", modelo, cor);
