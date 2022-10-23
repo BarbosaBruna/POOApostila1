@@ -10,19 +10,19 @@ public class Carro {
 
     }
 
-    public String getModelo() {
+    public String getModelo(String modeloCarro) {
         return modelo;
     }
 
-    public String setModelo() {   
+    public String setModelo(String modeloCarro) {   
         return modelo;
     }
 
-    public String getCor() {
+    public String getCor(String corCarro) {
         return cor;
     }
 
-    public String setCor() {
+    public String setCor(String corCarro) {
         return cor;
     }
 }
