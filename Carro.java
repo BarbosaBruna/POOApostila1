@@ -2,27 +2,29 @@ public class Carro {
     private String modelo;
     private String cor;
 
-    public void viraEsquerda(String[] args) {
+    public void viraEsquerda() {
+        System.out.printf("%s %s virando a esquerda", modelo, cor);
+    
+    }
+
+    public void acelera() {
+        System.out.printf("%s %s acelerando...", modelo, cor);
 
     }
 
-    public void acelera(String[] args) {
-
-    }
-
-    public String getModelo(String modeloCarro) {
+    public String getModelo(String modelo) {
         return modelo;
     }
 
-    public String setModelo(String modeloCarro) {   
-        return modelo;
+    public void setModelo(String setModelo) {   
+        this.modelo = setModelo;
     }
 
-    public String getCor(String corCarro) {
+    public String getCor(String cor) {
         return cor;
     }
 
-    public String setCor(String corCarro) {
-        return cor;
+    public void setCor(String setCor) {
+        this.cor = setCor;
     }
 }

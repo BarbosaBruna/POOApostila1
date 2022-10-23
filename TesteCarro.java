@@ -2,14 +2,18 @@ public class TesteCarro {
 
     public void main() {
         Carro Carro1 = new Carro();
-        Carro1.setModelo("Civic");
+        Carro1.setModelo("Duster");
         Carro1.setCor("Vermelho");
-        System.out.println(Carro1);
-
+        Carro1.viraEsquerda();
+        Carro1.acelera();
+ 
+        
          Carro Carro2 = new Carro();
          Carro2.setModelo("Duster");
          Carro2.setCor("Prata");
-         System.out.println(Carro2);
+         Carro2.viraEsquerda();
+         Carro2.acelera();
+
 
     }
 }
