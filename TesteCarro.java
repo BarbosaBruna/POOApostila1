@@ -17,7 +17,5 @@ public class TesteCarro {
          Carro2.acelera();
          System.out.println(Carro2.getModelo(null));
          System.out.println(Carro2.getModelo(null));
-
-
     }
 }
